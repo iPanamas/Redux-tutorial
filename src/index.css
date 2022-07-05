@@ -95,6 +95,7 @@ nav a:hover {
 /* Main content */
 
 section {
+  padding: 50px 0;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -270,4 +271,8 @@ button.reaction-button {
 
 .notification.new {
   background-color: rgba(29, 161, 242, 0.1);
+}
+
+textarea {
+  resize: none;
 }
